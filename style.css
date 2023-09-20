@@ -26,7 +26,7 @@ body {
     place-items: center;
 }
 
-.calculadora.dark {
+.calculator {
     position: relative;
     height: auto;
     width: auto;
@@ -103,60 +103,61 @@ button#igual {
 
 /* light theme */
 
-.calculadora.dark {
+.calculator {
     background-color: #fff;
 }
 
-.calculadora.calculadora.dark #display {
+.calculator #display {
     color: #0a1e23;
 }
 
-.calculadora.calculadora.dark button#clear {
+.calculator button#clear {
     background-color: #ffd5d8;
     color: #fc4552;
 }
 
-.calculadora.calculadora.dark button.btn-numero {
+.calculator button.btn-numero {
     background-color: #c3eaff;
     color: #000000;
 }
 
-.calculadora.calculadora.dark button.btn-operacao {
+.calculator button.btn-operacao {
     background-color: #ffd0fb;
     color: #f967f3;
   }
   
-  .calculadora.calculadora.dark button.btn-igual {
+  .calculator button.btn-igual {
     background-color: #adf9e7;
     color: #000;
   }
 
   /* dark theme */
 
-  .calculatora.dark {
+  .calculator.dark {
     background-color: #071115;
   }
 
-  .calculadora.dark #display {
+  .calculator.dark #display {
     color: #f8fafb;
   }
 
-  .calculadora.dark button#clear {
+  .calculator.dark button#clear {
     background-color: #2d191e;
     color: #bd3740;
   }
 
-  .calculadora.dark button.btn-numero {
+  .calculator.dark button.btn-numero {
     background-color: #1b2f38;
     color: #f8fafb;
   }
 
-  .calculadora.dark button.btn-operacao {
+  .calculator.dark button.btn-operacao {
     background-color: #2e1f39;
     color: #aa00a4;
   }
   
-  .calculadora.dark button.btn-igual {
+  .calculator.dark button.btn-igual {
     background-color: #223323;
     color: #ffffff;
   }
+  
